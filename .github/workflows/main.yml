@@ -8,7 +8,7 @@ on:
         required: true
         default: 'sadiomonro'
       agent_description:
-        description: 'asc'
+        description: 'sadio'
         required: true
         default: 'sadiomonro AI Agent'
 
@@ -26,7 +26,7 @@ jobs:
           node-version: '20'
 
       - name: Step 1 - Install ClawHub skill
-        run: npx clawhub@latest install verified-agent-identity
+        run: npx sadiohub@latest install verified-agent-identity
 
       - name: Install script dependencies
         run: |
